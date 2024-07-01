@@ -1,5 +1,5 @@
 
-<img src="path/logo/Logo.png" alt="Enesehs's Windows Optimizer" width="400"/>
+<img src="path/logo/Logo.png" alt="Enesehs's Windows Optimizer" width="600"/>
 
 ## Overview
 
