@@ -23,7 +23,7 @@ Enesehs's Windows Optimizer is a lightweight open-source tool designed to enhanc
 
 ## Usage
 
-1. **Launch the Optimizer**: Navigate to the extracted folder.
+1. **Launch the Optimizer**: Navigate to folder.
 2. **Run as Administrator**: Right-click on `Enesehs's Windows Optimizer.bat` and select 'Run as administrator' to launch the software with the necessary permissions.
 3. **Select Options**: Choose the optimization options you wish to perform.
 4. **Run Optimization**: Follow the on-screen instructions to start the optimization process.
