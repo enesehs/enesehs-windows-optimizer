@@ -1,6 +1,6 @@
 # Enesehs's Windows Optimizer
 
-![Enesehs's Windows Optimizer](path/to/logo.png)
+![Enesehs's Windows Optimizer](path/logo/Logo.png)
 
 ## Overview
 
