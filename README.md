@@ -20,7 +20,6 @@ Enesehs's Windows Optimizer is a powerful open-source tool designed to enhance t
 ## Installation
 
 1. **Download**: Download the latest version from the [releases](https://github.com/enesehs/enesehs-windows-optimizer/releases) page.
-2. **Extract**: Extract the downloaded zip file to your desired location.
 
 ## Usage
 
@@ -28,6 +27,14 @@ Enesehs's Windows Optimizer is a powerful open-source tool designed to enhance t
 2. **Run as Administrator**: Right-click on `Enesehs's Windows Optimizer.bat` and select 'Run as administrator' to launch the software with the necessary permissions.
 3. **Select Options**: Choose the optimization options you wish to perform.
 4. **Run Optimization**: Follow the on-screen instructions to start the optimization process.
+
+## Troubleshooting
+
+¯\_(ツ)_/¯
+
+## Contact
+
+For any bugs or support, please contact: [enesehs@protonmail.com](mailto:enesehs@protonmail.com)
 
 ## License
 
