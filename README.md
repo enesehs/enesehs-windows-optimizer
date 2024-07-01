@@ -3,7 +3,7 @@
   <img src="path/logo/Logo.png" alt="Enesehs's Windows Optimizer" style="display: block; margin: 0 auto;" width="700"/>
 </p>
 
-# Note: Enesehs's Windows Optimizer is still in development and is now in *open beta*.
+## Note: Enesehs's Windows Optimizer is still in development and is now in *open beta*.
 ## Overview
 
 Enesehs's Windows Optimizer is a lightweight open-source tool designed to enhance the performance of Windows operating systems. It optimizes your computer by cleaning up unnecessary files, freeing up disk space, and providing Windows tweaks. With this  open-source software, you can ensure that your Windows system runs smoothly and efficiently.
