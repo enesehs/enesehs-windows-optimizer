@@ -1,6 +1,5 @@
-# Enesehs's Windows Optimizer
 
-<img src="path/logo/Logo.png" alt="Enesehs's Windows Optimizer" width="200"/>
+<img src="path/logo/Logo.png" alt="Enesehs's Windows Optimizer" width="400"/>
 
 ## Overview
 
