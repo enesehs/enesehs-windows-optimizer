@@ -11,9 +11,9 @@ Enesehs's Windows Optimizer is a powerful open-source tool designed to enhance t
 ## Features
 
 - **User-Friendly Interface**: Easy to use with a clean and intuitive interface.
-- **File Cleanup**: Removes unnecessary files to free up disk space.
-- **Performance Enhancement**: Tweaks hidden Windows settings to improve system performance.
+- **File Cleanup**: Removes "temp" files to free up disk space.
 - **System Optimization**: Provides tools to optimize various aspects of the Windows OS.
+- **Performance Enhancement**: Tweaks hidden Windows settings to improve system security.
 - **Windows Activator**: In Development...
 - **Windows Advanced Settings**: In Development...
 
