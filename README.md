@@ -14,6 +14,16 @@ Enesehs's Windows Optimizer is a lightweight open-source tool designed to enhanc
 - **File Cleanup**: Removes one click all "temp" files to free up disk space.
 - **System Optimization**: Provides tools to optimize various aspects of the Windows OS.
 - **Performance Enhancement**: Tweaks hidden Windows settings to improve system security.
+
+## Detailed Features
+
+- **Disk Cleanup**: Automatically cleans up temporary files and unnecessary system files to free up disk space.
+- **System Repair**: Performs system file checks and repairs missing or corrupted files.
+- **Update Check**: Checks for available Windows updates and applies them.
+- **Antivirus Scan**: Initiates a scan with Windows Defender to ensure system security.
+- **Random Access Memory Optimization**: Optimizes system RAM to improve overall performance.
+- **System Temperature Check**: Checks and displays the current system temperature.
+- **Disk Error Check**: Checks for HDD/SSD errors and fixes them if found.
 - **Windows Activator**: In Development...
 - **Windows Advanced Settings**: In Development...
 
@@ -34,7 +44,8 @@ Enesehs's Windows Optimizer is a lightweight open-source tool designed to enhanc
 
 ## Contact
 
-For any bugs or support, please contact: [enesehs@protonmail.com](mailto:enesehs@protonmail.com)
+- This release is in open beta stage. Feedback and bug reports are welcome.
+- For any inquiries or issues, please contact [enesehs@protonmail.com](mailto:enesehs@protonmail.com).
 
 ## License
 
