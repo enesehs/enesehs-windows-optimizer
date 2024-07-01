@@ -1,5 +1,5 @@
 
-<div style="align: center;">
+<div style="right: 20px;">
   <img src="path/logo/Logo.png" alt="Enesehs's Windows Optimizer" width="800"/>
 </div>
 
