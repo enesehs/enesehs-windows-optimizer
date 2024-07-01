@@ -1,5 +1,7 @@
 
-<img src="path/logo/Logo.png" alt="Enesehs's Windows Optimizer" width="600"/>
+<div style="text-align: center;">
+  <img src="path/logo/Logo.png" alt="Enesehs's Windows Optimizer" width="800"/>
+</div>
 
 ## Overview
 
