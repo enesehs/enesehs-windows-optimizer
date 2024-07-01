@@ -1,6 +1,6 @@
 # Enesehs's Windows Optimizer
 
-![Enesehs's Windows Optimizer](path/logo/Logo.png)
+<img src="path/logo/Logo.png" alt="Enesehs's Windows Optimizer" width="200"/>
 
 ## Overview
 
