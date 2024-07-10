@@ -25,7 +25,7 @@ Enesehs's Windows Optimizer is a lightweight open-source tool designed to enhanc
 - **System Temperature Check**: Checks and displays the current system temperature.
 - **Disk Error Check**: Checks for HDD/SSD errors and fixes them if found.
 - **Windows Activator**: Activates Windows with random keys or with KMS.
-- **Windows Advanced Settings**: Updates all apps, fix internet issues, install adblocker dns, flush dns, fix MSI Installer 2502/2503 errors.
+- **Windows Tweaks**: Updates all apps, fix internet issues, install adblocker dns, flush dns, fix MSI Installer 2502/2503 errors.
 
 ## Installation
 
