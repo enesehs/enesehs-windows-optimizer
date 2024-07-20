@@ -49,5 +49,5 @@ Enesehs's Windows Optimizer is a lightweight open-source tool designed to enhanc
 
 ## License
 
-*Enesehs's Windows Optimizer* is licensed under the GPL-3.0 License.
+*Enesehs's Windows Optimizer* is licensed under the Eclipse Public License 2.0.
 
