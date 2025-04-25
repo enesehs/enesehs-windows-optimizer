@@ -1,53 +1,73 @@
-
 <p align="center">
-  <img src="path/logo/Logo.png" alt="Enesehs's Windows Optimizer" style="display: block; margin: 0 auto;" width="700"/>
+  <img src="path/logo/Logo.png" alt="Enesehs's Windows Optimizer Logo" style="display: block; margin: 0 auto;" width="700"/>
 </p>
 
-> Note: Enesehs's Windows Optimizer is still in development and is now in *open beta*.
+<h1 align="center">Enesehs's Windows Optimizer</h1>
+
+<p align="center">
+  <strong>⚠️ Note: Enesehs's Windows Optimizer is currently in Open Beta. ⚠️</strong>
+  <br/>
+  Features may change, and occasional bugs might be present. Your feedback is valuable!
+</p>
+
 ## Overview
 
-Enesehs's Windows Optimizer is a lightweight open-source tool designed to enhance the performance of Windows operating systems. It optimizes your computer by cleaning up unnecessary files, freeing up disk space, and providing Windows tweaks. With this  open-source software, you can ensure that your Windows system runs smoothly and efficiently.
+Enesehs's Windows Optimizer is a lightweight, open-source batch tool designed to enhance the performance, clean up clutter, and apply useful tweaks to Windows operating systems. It aims to provide an easy way to keep your Windows system running smoothly and efficiently.
 
-## Features
+## Key Features
 
-- **User-Friendly Interface**: Easy to use with a clean and intuitive interface.
-- **File Cleanup**: Removes one click all "temp" files to free up disk space.
-- **System Optimization**: Provides tools to optimize various aspects of the Windows OS.
-- **Performance Enhancement**: Tweaks hidden Windows settings to improve system security.
+* **✨ User-Friendly Menu**: Simple, menu-driven interface for ease of use.
+* **🧹 File Cleanup**: Quickly removes various temporary files (`%temp%`, `temp`, prefetch, etc.) to free up disk space.
+* **🛠️ System Optimization**: Tools to check system health, repair files, and manage updates.
+* **🚀 Performance & Tweaks**: Applies common Windows tweaks to potentially improve responsiveness and usability.
+* **🛡️ Security Utilities**: Integrates basic checks using built-in Windows tools.
 
 ## Detailed Features
 
-- **Disk Cleanup**: Automatically cleans up temporary files and unnecessary system files to free up disk space.
-- **System Repair**: Performs system file checks and repairs missing or corrupted files.
-- **Update Check**: Checks for available Windows updates and applies them.
-- **Antivirus Scan**: Initiates a scan with Windows Defender to ensure system security.
-- **Random Access Memory Optimization**: Optimizes system RAM to improve overall performance.
-- **System Temperature Check**: Checks and displays the current system temperature.
-- **Disk Error Check**: Checks for HDD/SSD errors and fixes them if found.
-- **Windows Activator**: Activates Windows with random keys or with KMS.
-- **Windows Tweaks**: Updates all apps, fix internet issues, install adblocker dns, flush dns, fix MSI Installer 2502/2503 errors.
+* **Disk Cleanup**: Cleans temporary files, prefetch files, and other unnecessary system clutter.
+* **System Repair**: Runs System File Checker (`sfc /scannow`) to verify and repair protected Windows system files.
+* **Windows Update Check**: Initiates a check for available Windows updates via standard system tools.
+* **Antivirus Scan**: Starts a quick scan using the built-in Microsoft Defender Antivirus.
+* **RAM Optimization**: Attempts to optimize system memory usage (Note: effectiveness can vary).
+* **System Temperature Check**: Displays current CPU temperature using WMIC (may require appropriate hardware/drivers).
+* **Disk Error Check**: Runs `chkdsk` to check the integrity of your HDD or SSD and potentially fix errors.
+* **Windows Tweaks**:
+    * Updates installed applications (requires clarification on method, e.g., uses winget?).
+    * Network troubleshooting (e.g., Flush DNS, potentially other network reset commands).
+    * Installs an Adblocker via DNS modification (specify which DNS if possible).
+    * Fixes common MSI Installer errors (2502/2503).
+
+## Requirements
+
+* Windows Operating System (Specify versions, e.g., Windows 10, 11)
+* Administrator Privileges (required to run the tool effectively)
 
 ## Installation
 
-1. **Download**: Download the latest version from the [releases](https://github.com/enesehs/enesehs-windows-optimizer/releases) page.
+1.  **Download**: Get the latest version from the [Releases](https://github.com/enesehs/enesehs-windows-optimizer/releases) page.
+2.  **Extract**: Unzip the downloaded file to a folder of your choice.
 
 ## Usage
 
-1. **Launch the Optimizer**: Navigate to folder.
-2. **Run as Administrator**: Right-click on `Enesehs's Windows Optimizer.bat` and select 'Run as administrator' to launch the software with the necessary permissions.
-3. **Select Options**: Choose the optimization options you wish to perform.
-4. **Run Optimization**: Follow the on-screen instructions to start the optimization process.
+1.  **Navigate**: Open the folder where you extracted the optimizer files.
+2.  **Run as Administrator**: Right-click on `Enesehs's Windows Optimizer.bat` and select **Run as administrator**. This is crucial for most optimization tasks.
+3.  **Select Options**: Use the on-screen menu to choose the optimization tasks you wish to perform.
+4.  **Follow Prompts**: Read and follow any instructions or prompts displayed by the script.
 
 ## Troubleshooting
 
-¯\\_(ツ)_/¯
+* **Permission Errors**: Ensure you are running the `.bat` file as an Administrator. Right-click -> "Run as administrator".
+* **Unexpected Behavior**: As the tool is in beta, some functions might not work perfectly on all system configurations.
+* **Reporting Issues**: If you encounter bugs or have problems, please report them on the [GitHub Issues](https://github.com/enesehs/enesehs-windows-optimizer/issues) page, providing as much detail as possible (Windows version, steps to reproduce, error messages).
 
+## Contributing
+
+Contributions are welcome! If you'd like to help improve the optimizer, please check the [Issues](https://github.com/enesehs/enesehs-windows-optimizer/issues) page or consider submitting a Pull Request. *
 ## Contact
 
-- This release is in open beta stage. Feedback and bug reports are welcome.
-- For any inquiries or issues, please contact [enesehs@protonmail.com](mailto:enesehs@protonmail.com).
+* This project is in open beta. Feedback, suggestions, and bug reports are highly encouraged via GitHub Issues.
+* For other inquiries, you can reach out to [enesehs@protonmail.com](mailto:enesehs@protonmail.com).
 
 ## License
 
-*Enesehs's Windows Optimizer* is licensed under the Eclipse Public License 2.0.
-
+*Enesehs's Windows Optimizer* is licensed under the [Eclipse Public License 2.0](https://www.eclipse.org/legal/epl-2.0/).
