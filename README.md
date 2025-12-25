@@ -22,15 +22,6 @@
 
 ---
 
-## Screenshots
-
-<p align="center">
-  <img src="path/screenshots/screenshots1.png" alt="Main Menu" width="49%"/>
-  <img src="path/screenshots/screenshots2.png" alt="Tweaks Menu" width="49%"/>
-</p>
-
----
-
 ## Quick Start
 
 Run the following command in PowerShell as Administrator:
@@ -40,6 +31,15 @@ irm enesehs.dev/win | iex
 ```
 
 Or download manually from the [Releases](https://github.com/enesehs/enesehs-windows-optimizer/releases) page.
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="path/screenshots/screenshots1.png" alt="Main Menu" width="49%"/>
+  <img src="path/screenshots/screenshots2.png" alt="Tweaks Menu" width="49%"/>
+</p>
 
 ---
 
