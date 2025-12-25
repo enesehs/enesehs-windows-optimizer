@@ -3,15 +3,14 @@
 $ErrorActionPreference = "Stop"
 $Host.UI.RawUI.WindowTitle = "Enesehs's Windows Optimizer v1.0"
 $Script:Version = "1.0"
-$Script:LogPath = "$env:USERPROFILE\Enesehs's-Windows-Optimizer\Enesehs-Windows-Optimizer_$(Get-Date -Format 'yyyyMMdd_HHmmss').log"
+$Script:LogDir = "$env:LOCALAPPDATA\EnesehsWindowsOptimizer\Logs"
+$Script:LogPath = "$Script:LogDir\Enesehs-Windows-Optimizer_$(Get-Date -Format 'yyyyMMdd_HHmmss').log"
 $Script:SuccessCount = 0
 $Script:ErrorCount = 0
 $Script:Results = @()
 
-
-$logDir = [System.IO.Path]::GetDirectoryName($Script:LogPath)
-if (-not (Test-Path -Path $logDir)) {
-    New-Item -ItemType Directory -Path $logDir -Force | Out-Null
+if (-not (Test-Path -Path $Script:LogDir)) {
+    New-Item -ItemType Directory -Path $Script:LogDir -Force | Out-Null
 }
 
 $signature = @"
@@ -1996,8 +1995,18 @@ function Show-About {
 
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
     Write-Host "Restarting as Administrator..." -ForegroundColor Yellow
-    $currentPs = (Get-Process -Id $PID).Path
-    Start-Process $currentPs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs
+    
+    # Check if running via irm | iex (no script file path)
+    if ([string]::IsNullOrEmpty($PSCommandPath)) {
+        # Running via irm | iex - download and run with admin
+        $scriptUrl = "https://raw.githubusercontent.com/enesehs/enesehs-windows-optimizer/main/releases/Enesehs-Windows-Optimizer-v1.0.ps1"
+        Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -Command `"irm '$scriptUrl' | iex`"" -Verb RunAs
+    }
+    else {
+        # Running from file
+        $currentPs = (Get-Process -Id $PID).Path
+        Start-Process $currentPs -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs
+    }
     exit
 }
 
